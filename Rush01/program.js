@@ -2,9 +2,21 @@ function validIPAdresses(string) {
 
 //compter le nbr de chiffres
 if(string.length >=4 && string.length <=12){
+    for(let i = 0;i <3;i++){
+
+    }
+
+
+
+
+
+
+
+
+
 
 }
-//diviser la string en 4 sequence avc 3 '.'
+//diviser la string en 4 sequence
 //chaque séquence max 3 chiffres
 // verifier si chaque sequence  est compris entre 0 et 255 max
 //les séquence ne peuvent pas commencé par 0 et être suivi d'un autre int 
@@ -16,7 +28,9 @@ if(string.length >=4 && string.length <=12){
 
 //si compteur 
 
+
+return [];
 }
-    /
+    
     // Merci de ne pas effacer la ligne en dessous.
     exports.validIPAddresses = validIPAddresses;
