@@ -1,12 +1,13 @@
 function firstDuplicateValue(array){
+    let temp = [];
      for(let i = 0; i<array.length ; i++){
-         if(array[i]<=0){
-             return("le tableau contient des valeurs inférieur ou égal à 0");
-         }else if(array.indexOf(array[i], i+1) != -1){
+         if(temp.indexOf(array[i]) != -1){
              return array[i];
          }
+         temp.push(array[i]);
          
      }
+     return -1;
     }
     
     // Merci de ne pas effacer la ligne en dessous.
